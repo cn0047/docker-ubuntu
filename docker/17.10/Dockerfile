@@ -1,5 +1,7 @@
 FROM ubuntu:17.10
 
+MAINTAINER Vladimir Kovpak <cn007b@gmail.com>
+
 ENV TERM xterm
 
 RUN apt-get update --fix-missing
