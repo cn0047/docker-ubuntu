@@ -12,6 +12,7 @@ RUN apt-get install -y curl net-tools telnet
 RUN apt-get install -y unzip
 RUN apt-get install -y libpcre3-dev
 RUN apt-get install -y make
+RUN apt-get install -y lsb-release
 
 # ApacheBench
 RUN apt-get install -y apache2-utils
