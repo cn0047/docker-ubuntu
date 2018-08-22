@@ -19,3 +19,9 @@ RUN apt-get install -y apache2-utils
 
 # ZeroMQ
 RUN apt-get install -y libzmq5 libzmq5-dev 
+
+# Monitoring
+RUN apt-get install -y dstat
+RUN apt-get install -y sysstat
+RUN apt-get install -y iotop
+RUN apt-get install -y cbm
