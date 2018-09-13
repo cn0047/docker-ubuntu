@@ -13,6 +13,7 @@ RUN apt-get install -y unzip
 RUN apt-get install -y libpcre3-dev
 RUN apt-get install -y make
 RUN apt-get install -y lsb-release
+RUN apt-get install -y uuid
 
 # ApacheBench
 RUN apt-get install -y apache2-utils
