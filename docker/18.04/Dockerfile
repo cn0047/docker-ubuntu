@@ -27,3 +27,5 @@ RUN apt-get install -y dstat
 RUN apt-get install -y sysstat
 # RUN apt-get install -y iotop
 RUN apt-get install -y cbm
+
+RUN apt-get clean && apt-get autoclean && apt-get autoremove
