@@ -9,10 +9,12 @@ RUN apt-get update --fix-missing
 RUN apt-get install -y vim tree mc
 RUN apt-get install -y git colordiff
 RUN apt-get install -y curl net-tools telnet ftp
-RUN apt-get install -y nmap
 RUN apt-get install -y unzip
+# RUN apt-get install -y libpcre3-dev
 RUN apt-get install -y make
+# RUN apt-get install -y lsb-release
 RUN apt-get install -y uuid
+RUN apt-get install -y nmap
 
 # ApacheBench
 RUN apt-get install -y apache2-utils
@@ -21,6 +23,7 @@ RUN apt-get install -y apache2-utils
 RUN apt-get install -y libzmq5 libzmq5-dev
 
 # Monitoring
-RUN apt-get install -y dstat cbm
+RUN apt-get install -y dstat
 RUN apt-get install -y sysstat
-RUN apt-get install -y iotop
+# RUN apt-get install -y iotop
+RUN apt-get install -y cbm
