@@ -14,6 +14,7 @@ RUN apt-get install -y unzip
 RUN apt-get install -y make
 RUN apt-get update --fix-missing && apt-get install -y lsb-core
 RUN apt-get install -y uuid
+RUN apt-get install -y jq
 
 # ApacheBench
 RUN apt-get install -y apache2-utils
