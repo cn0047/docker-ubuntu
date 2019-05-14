@@ -18,3 +18,12 @@ This image contains pre-installed tools helpful for development purposes.
 * apache bench
 
 * dstat, sysstat
+
+# Usage:
+
+````sh
+docker run -ti --rm -v $PWD:/app -w /app cn007b/ubuntu sh -c 'echo ok'
+
+# or
+docker run -ti --rm -v $PWD:/app -w /app cn007b/ubuntu /bin/bash
+````
