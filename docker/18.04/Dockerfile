@@ -2,7 +2,8 @@ FROM ubuntu:18.04
 
 MAINTAINER Vladimir Kovpak <cn007b@gmail.com>
 
-ENV TERM xterm
+ENV TERM=xterm
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update --fix-missing
 
@@ -15,6 +16,14 @@ RUN apt-get install -y make
 RUN apt-get update --fix-missing && apt-get install -y lsb-core
 RUN apt-get install -y uuid
 RUN apt-get install -y jq
+
+# docker
+RUN apt-get install -y docker.io
+
+# aws
+RUN mkdir -p /root/.aws/ \
+    && echo '[default]\nregion = eu-central-1' > /root/.aws/credentials \
+    && apt-get install -y awscli
 
 # ApacheBench
 RUN apt-get install -y apache2-utils

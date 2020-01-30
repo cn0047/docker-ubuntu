@@ -15,6 +15,8 @@ This image contains pre-installed tools helpful for development purposes.
 * make
 * uuid
 
+* docker, awscli
+
 * apache bench
 
 * dstat, sysstat
