@@ -26,7 +26,7 @@ RUN mkdir -p /root/.aws/ \
     && apt-get install -y awscli
 
 # ApacheBench
-RUN apt-get install -y apache2-utils
+RUN apt-get update --fix-missing &&  apt-get install -y apache2-utils
 
 # ZeroMQ
 RUN apt-get install -y libzmq5 libzmq5-dev
@@ -36,3 +36,5 @@ RUN apt-get install -y dstat
 RUN apt-get install -y sysstat
 # RUN apt-get install -y iotop
 RUN apt-get install -y cbm
+
+RUN apt-get clean
