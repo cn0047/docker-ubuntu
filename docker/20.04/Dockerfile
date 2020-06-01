@@ -9,7 +9,7 @@ RUN apt-get update --fix-missing
 
 RUN apt-get install -y vim tree mc
 RUN apt-get install -y git colordiff
-RUN apt-get install -y curl net-tools telnet ftp nmap
+RUN apt-get install -y curl wget net-tools telnet ftp nmap
 RUN apt-get install -y unzip
 # RUN apt-get install -y libpcre3-dev
 RUN apt-get install -y make
