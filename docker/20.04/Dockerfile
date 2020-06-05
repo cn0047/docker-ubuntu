@@ -12,7 +12,7 @@ RUN apt-get install -y git colordiff
 RUN apt-get install -y curl wget net-tools telnet ftp nmap
 RUN apt-get install -y unzip
 # RUN apt-get install -y libpcre3-dev
-RUN apt-get install -y make
+RUN apt-get install -y make pkg-config
 RUN apt-get update --fix-missing && apt-get install -y lsb-core
 RUN apt-get install -y uuid
 RUN apt-get install -y jq
