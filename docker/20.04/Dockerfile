@@ -16,6 +16,7 @@ RUN apt-get install -y make pkg-config
 RUN apt-get update --fix-missing && apt-get install -y lsb-core
 RUN apt-get install -y uuid
 RUN apt-get install -y jq
+RUN apt-get install -y strace ltrace
 
 # docker
 RUN apt-get install -y docker.io
