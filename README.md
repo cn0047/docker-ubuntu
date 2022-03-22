@@ -1,7 +1,6 @@
 ## Ubuntu for DEVELOPMENT.
 
 [![Docker Image CI](https://github.com/cn007b/docker-ubuntu/workflows/Docker%20Image%20CI/badge.svg?branch=master)](https://github.com/cn007b/docker-ubuntu/actions)
-[![Docker Build Status](https://img.shields.io/docker/build/cn007b/ubuntu.svg)](https://hub.docker.com/r/cn007b/ubuntu/)
 [![Docker Automated build](https://img.shields.io/docker/automated/cn007b/ubuntu.svg)](https://hub.docker.com/r/cn007b/ubuntu/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/cn007b/ubuntu.svg)](https://hub.docker.com/r/cn007b/ubuntu/)
 
