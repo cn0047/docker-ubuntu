@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-MAINTAINER V.K. <cn007b@gmail.com>
+MAINTAINER Vladimir Kovpak <cn007b@gmail.com>
 
 ENV TERM=xterm
 ENV DEBIAN_FRONTEND=noninteractive
