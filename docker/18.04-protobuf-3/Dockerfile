@@ -1,6 +1,6 @@
 FROM cn007b/ubuntu:18.04
 
-MAINTAINER Vladimir Kovpak <cn007b@gmail.com>
+MAINTAINER V.K. <cn007b@gmail.com>
 
 # protobuf 3
 RUN curl -OL https://github.com/google/protobuf/releases/download/v3.6.1/protoc-3.6.1-linux-x86_64.zip \
