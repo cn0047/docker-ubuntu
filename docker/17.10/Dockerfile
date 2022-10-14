@@ -1,6 +1,6 @@
 FROM ubuntu:17.10
 
-MAINTAINER Vladimir Kovpak <cn007b@gmail.com>
+MAINTAINER V.K. <cn007b@gmail.com>
 
 ENV TERM xterm
 

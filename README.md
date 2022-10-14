@@ -8,18 +8,20 @@ This image contains pre-installed tools helpful for development purposes.
 
 # List of installed tools:
 
-* tree, mc
-* git, colordiff
-* curl, telnet, ftp
-* unzip
-* make
-* uuid
+* vim, mc, tree, screen,
+* git, colordiff,
+* curl, wget, telnet, ftp,
+* zip, unzip,
+* make,
+* uuid, jq,
 
-* docker, awscli
+* docker, awscli,
 
-* apache bench
+* apache bench,
 
-* dstat, sysstat
+* dstat, sysstat,
+
+* and more.
 
 # Usage:
 
